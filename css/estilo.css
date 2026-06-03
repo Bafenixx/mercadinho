@@ -1,28 +1,114 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;;
 }
 
 nav {
     background-color: rgba(226, 54, 50, 1);
-    font-size: 19px;
-    height: 70px;
+    width: 100%;
+    height: 90px;
 }
 
 .topo {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    padding: 10px;
+    padding-left: 15%;
 }
 
 .logo {
-    width: 80px;
-    margin-right: 15px;
+    width: 150px;
+    margin-right: -15px;
+    margin-top: -3px;
 }
 
-a {
+.icone {
+    width: 85px;
+    margin-top: -8px;
+    margin-left: 400px;
+}
+
+.carrinho {
+    width: 45px;
+    margin-left: 10px;
+}
+
+.topo a {
     color: white;
     text-decoration: none;
     font-size: 10px;
 }
+
+.p_conta {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+h1 {
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: -7px;
+}
+
+/* MENU */
+.menu {
+    background-color: rgb(221, 205, 205);
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.a_menu {
+    text-decoration: none;
+    color: rgb(117, 107, 107);
+
+}
+
+/* BANNER */
+.banner {
+    margin: 90px;
+}
+
+/* FOOTER */
+footer {
+    background-color:rgba(226, 54, 50, 1);
+    height: 227px;
+}
+
+footer img {
+    width: 50px;
+    padding-left: 20px;
+}
+
+.primeira_img_footer {
+    margin-left: -20px;
+}
+
+.formas_pg {
+    padding-top: 30px;
+    padding-bottom: 8px;
+    font-size:20px;
+    color: white;
+}
+
+.p_debito_bancario {
+    padding-top: 10px;
+    font-size:15px;
+    color: white;
+}
+
+.a_footer {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.a_footer:hover {
+    text-decoration: underline;
+}
+
+.img_sociais {
+    margin-left: -5px;
+}
+
