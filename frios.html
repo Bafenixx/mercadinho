@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercadinho do Gatão</title>
+    <link rel="icon" type="image/x-icon" href="img/Icone.png">
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav> <!-- Topo do site-->
+        <div class="topo">
+            <a href="index.html"><img src="img/logo.png" alt="Logo Mercadinho" class="logo"></a>
+            <a href="index.html">
+                <h1>MERCADINHO DO GATÃO</h1>
+            </a>
+            <a href="conta.html"><img src="img/user.png" alt="Ícone de perfil" class="icone"></a>
+            <a href="conta.html">
+                <p class="p_conta">Entre ou cadastre-se</p>
+            </a>
+            <a href="carrinho.html"><img src="img/carrinho.png" alt="Ícone de sacola" class="carrinho"></a>
+        </div>
+    </nav>
+
+    <div class="menu"> <!-- Menu -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <a href="index.html" class="a_menu">Início</a>
+                </div>
+                <div class="col">
+                    <a href="produto.html" class="a_menu">Produtos</a>
+                </div>
+                <div class="col">
+                    <a href="contato.html" class="a_menu">Contato</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BARRA DE PESQUISA -->
+
+    <form action="/buscar" method="GET" class="barra_pesquisa">
+        <input type="search" name="barra_pesquisa" placeholder="Buscar produtos..." aria-label="Pesquisar" required>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <!-- CATEGORIAS (PADARIA)-->
+    <div class="categoria">
+        <h4>Categorias</h4>
+        <a href="padaria.html"><p>Padaria</p></a>
+        <a href="frios.html"><p class="frios">Frios</p></a>
+        <a href="assados.html"><p>Assados</p></a>
+        <a href="laticinios.html"><p>Laticínios</p></a>
+        <a href="bebidas.html"><p>Bebidas</p></a>
+        <a href="beleza.html"><p>Produtos de beleza</p></a>
+        <a href="produto.html"><p>Outros</p></a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h4 class="formas_pg">Formas de pagamento</h4>
+                    <img src="img/pix.png" class="primeira_img_footer" alt="Icone do pix">
+                    <img src="img/mastercard.jpg" alt="Icone do mastercard">
+                    <img src="img/visa.png" alt="Icone da visa">
+                    <img src="img/elo.png" alt="Icone do elo">
+                    <p class="p_debito_bancario">Débito bancário</p>
+                    <img src="img/bradesco.jfif" class="primeira_img_footer" alt="Icone do bradesco">
+                    <img src="img/nubank.png" alt="Icone da nubank">
+                    <img src="img/inter.png" alt="Icone da inter">
+                    <img src="img/santander.png" alt="Icone da santander">
+                </div>
+                <div class="col">
+                    <h4 class="formas_pg">Atendimentos</h4>
+                    <a href="carrinho.html" class="a_footer" style="margin-left: -20px">Meus Pedidos</a><br>
+                    <a href="contato.html" class="a_footer" style="margin-left: -60px;">Contatos</a>
+                </div>
+                <div class="col">
+                    <h4 class="formas_pg">Redes Sociais</h4>
+                    <a href="https://www.instagram.com/bruuh.matos_" target="_blank"><img src="img/instagram.png"
+                            class="img_sociais" alt="Icone do instagram"></a>
+                    <a href="https://www.facebook.com/brunamatos.matos.1?locale=pt_BR" target="_blank"><img
+                            src="img/facebook.png" class="img_sociais" alt="Icone do facebook.png"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

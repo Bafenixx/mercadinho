@@ -77,7 +77,7 @@ h1 {
     border-radius: 8px;
     padding: 10px;
     padding-right: 40%;
-    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .barra_pesquisa button {
@@ -146,3 +146,128 @@ footer img {
     margin-left: -5px;
 }
 
+/* GUIA PRODUTOS */
+.categoria {
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.4);
+    width: 250px;
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 8%;
+    border-radius: 8px;
+}
+
+.categoria h4, p {
+    margin-left: 50px;
+}
+
+.categoria a {
+    color: black;
+    text-decoration: none;
+} 
+
+.categoria a:hover {
+    text-decoration: underline;
+}
+
+.categoria .outros {
+    background-color: rgba(226, 54, 50, 1);
+    color: white;
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 4px;
+    margin-right: 57%;
+} 
+
+.categoria .padaria {
+    background-color: rgba(226, 54, 50, 1);
+    color: white;
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 4px;
+    margin-right: 54%;
+}
+
+.categoria .frios {
+    background-color: rgba(226, 54, 50, 1);
+    color: white;
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 4px;
+    margin-right: 62%;
+}
+
+.categoria .assados {
+    background-color: rgba(226, 54, 50, 1);
+    color: white;
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 4px;
+    margin-right: 52%;
+}
+
+.categoria .laticinios {
+    background-color: rgba(226, 54, 50, 1);
+    color: white;
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 4px;
+    margin-right: 50%;
+} 
+
+.categoria .bebidas {
+    background-color: rgba(226, 54, 50, 1);
+    color: white;
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 4px;
+    margin-right: 53%;
+} 
+
+.categoria .beleza {
+    background-color: rgba(226, 54, 50, 1);
+    color: white;
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 4px;
+    margin-right: 20%;
+} 
+
+/* CONTATOS */
+
+.linear {
+    background-image: linear-gradient(180deg, #e7b17f, #fe7126, #fa3434);
+    width: 600px;
+    height: 90vb;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.redes-sociais {
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.4);
+    width: 350px;
+    margin-top: 500px;
+    margin-left: 650px;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    margin-bottom: 8%;
+    border-radius: 8px;
+}
+
+.insta img {
+    margin-top: 30px;
+    width: 80px;
+} 
+
+.insta p {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.insta a {
+    text-decoration: none;
+    color: black;
+}
