@@ -41,6 +41,7 @@ nav {
 
 .p_conta {
     color: white;
+    margin-top: 10px;
     margin-left: 10px;
     font-size: 20px;
 }
@@ -65,9 +66,42 @@ h1 {
 
 }
 
+/* BARRA DE PESQUISA */
+.barra_pesquisa {
+    margin-top: 30px;
+    margin-left: 25%;
+}
+
+.barra_pesquisa input{
+    border: 2px solid rgb(139, 137, 137);
+    border-radius: 8px;
+    padding: 10px;
+    padding-right: 40%;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.barra_pesquisa button {
+    background-color: #FF9538;
+    border: #FF9538;
+    color: white;
+    margin-left: 20px;
+    padding: 11px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+}
+
+.barra_pesquisa button:hover {
+    background-color: #fa841d;
+}
+
 /* BANNER */
 .banner {
-    margin: 90px;
+    width: 1300px;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    margin-left: 17%;
+    border-radius: 50px;
 }
 
 /* FOOTER */
